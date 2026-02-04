@@ -43,12 +43,21 @@ const chartOptions = {
 
 <style scoped>
 .chart-container {
-  height: 300px; 
-  background: white;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  background: rgb(179, 198, 210);
+  box-shadow: 0 4px 12px rgba(227, 224, 224, 0.1);
   text-align: center;
+  min-height: 400px; 
+  padding: 20px;
+  display: flex;
+  border-radius: 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-h3 { margin-bottom: 15px; color: #2c3e50; }
+h3 { margin-bottom: 15px; color: #fdfeff; font-weight: 600; }
+
+div canvas {
+  max-width: 100%;
+  max-height: 300px;
+}
 </style>
