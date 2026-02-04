@@ -1,5 +1,7 @@
-# Vue 3 + Vite
+# GitHub DevFinder - Perfil e estatísticas de devs
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+*Disponível online em*: https://github-finder-flax-kappa.vercel.app/
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+*O que é*: Uma aplicação para buscar e exibir perfis de desenvolvedores a partir do Github. Além dos dados básicos, o app processa as informações para gerar um gráfico visual das linguagens mais usadas e possui um sistema de histórico que salva as últimas pesquisas do usuário.
+
+*Conceitos Teóricos*: Consumo de APIs Reais (Axios com Async/Await), Manipulação de Dados (Lógica para calcular estatísticas de linguagens) e Persistência de Estado (LocalStorage integrado ao onMounted).
